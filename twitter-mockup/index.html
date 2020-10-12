@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / Twitter</title>
+    <link rel="stylesheet" 
+    href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <script src="https://kit.fontawesome.com/90d15019d4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="#"><i class="fab fa-twitter"></i></a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Moments</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Notifications</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Messages</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="jumbotron jumbotronfluid" id="jumboMargin">
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-thumbnail" src="../portfolio-pic copy.jpg" alt="this is a profile picture of a future full stack developer">
+                    <h5>Michael Canon</h5>
+                    <p><b>@mjcanon</b> <br>This is where profile information goes</p>
+                </div>
+            </div> 
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <input type="text" placeholder="What's happening?">
+                    <br>
+             </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="whoToFollow">
+                    <h5>Who To Follow</h5>
+                        <ul id="following">
+                            <li class="whoToFollowList"><p>Tech Talent South</p> <button class="btn btn-primary" type="submit">Follow</button></li>
+                            <li class="whoToFollowList"><p>Apple</p> <button class="btn btn-primary" type="submit">Follow</button></li>
+                            <li class="whoToFollowList"><p>Amazon</p> <button class="btn btn-primary" type="submit">Follow</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Trends</h5>
+                    <p>BREAKING NEWS: I still am having troubles with Bootstrap4. But would still rate 5/5.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <ul id="middleList">
+                        <li class="iconPad"><img class="img-thumbnail circle" src="../portfolio-pic copy.jpg" alt=""><span class="namePad twitterHandle"> Michael Canon <br><b>@mjcanon</b></span></li>
+                        <li class="featureContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit harum labore reprehenderit repellat vel temporibus aut perspiciatis architecto obcaecati blanditiis repellendus odio ducimus neque facere distinctio, provident voluptatem quisquam voluptate.
+                            <ul>
+                                <li class="postButtons1 rounded"><i class="far fa-comments"></i></li>
+                                <li class="postButtons2 rounded"><i class="fas fa-retweet"></i></li>
+                                <li class="postButtons3 rounded"><i class="far fa-heart"></i></li>
+                                <li class="postButtons4 rounded"><i class="far fa-envelope"></i></li>                
+                            </ul>
+                        </li>
+                        <li class="iconPad"><img class="img-thumbnail circle" src="../portfolio-pic copy.jpg" alt=""><span class="namePad twitterHandle"> Michael Canon <br><b>@mjcanon</b></span></li>
+                        <li class="featureContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit harum labore reprehenderit repellat vel temporibus aut perspiciatis architecto obcaecati blanditiis repellendus odio ducimus neque facere distinctio, provident voluptatem quisquam voluptate.
+                            <ul>
+                                <li class="postButtons1 rounded"><i class="far fa-comments"></i></li>
+                                <li class="postButtons2 rounded"><i class="fas fa-retweet"></i></li>
+                                <li class="postButtons3 rounded"><i class="far fa-heart"></i></li>
+                                <li class="postButtons4 rounded"><i class="far fa-envelope"></i></li>                
+                            </ul>
+                        </li>
+                        <li class="iconPad"><img class="img-thumbnail circle" src="../portfolio-pic copy.jpg" alt=""><span class="namePad twitterHandle"> Michael Canon <br><b>@mjcanon</b></span></li>
+                        <li class="featureContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit harum labore reprehenderit repellat vel temporibus aut perspiciatis architecto obcaecati blanditiis repellendus odio ducimus neque facere distinctio, provident voluptatem quisquam voluptate.
+                            <ul>
+                                <li class="postButtons1 rounded"><i class="far fa-comments"></i></li>
+                                <li class="postButtons2 rounded"><i class="fas fa-retweet"></i></li>
+                                <li class="postButtons3 rounded"><i class="far fa-heart"></i></li>
+                                <li class="postButtons4 rounded"><i class="far fa-envelope"></i></li>                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+        </div>
+    </div>
+    </div>
+
+    <footer class="container-fluid" id="foot">
+        <div class="row">
+          <div class="col-md-4">Canon</div>
+          <div class="col-md-4">
+            <ul class="">
+              <li class="contact"><a href="#">CONTACT</a></li>
+              <li class="contact borderLeft"><a href="#"> FAQS </a></li>
+              <li class="contact borderLeft"><a href="#"> PRIVACY POLICY</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-right"><a href="#">Follow Us</a></p>
+          </div>
+        </div>
+      </footer>
+  
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"
+></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"
+></script>
+</body>
+</html>

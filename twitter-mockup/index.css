@@ -1,0 +1,91 @@
+
+
+.navbar > .collapse >.form-inline > button {
+    border-radius: 50px;
+}
+
+.navbar > .navbar-brand > .fab:hover {
+    border-bottom: black 50px;
+}
+
+.nav-item:hover {
+    color: #375597;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: url(../header.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+.container > .row > .col-3 {
+    text-align: center;
+}
+
+/* .container > .row > .col-6 {
+    text-align: center;
+} */
+
+.container > .row > .col-6 > .card > .card-body input {
+    width: 100%;
+    height: 3em;
+    padding-bottom: 25px;
+}
+
+.container > .row > .col-6 > .card > .card-body > .tweets {
+    padding-top: 26;
+
+}
+
+#middleList li {
+    list-style-type: none;
+}
+
+#middleList ul{
+    margin-bottom: 2rem;
+}
+
+.postButtons1, .postButtons2, .postButtons3, .postButtons4 {
+    list-style: none;
+    display: inline;
+    padding: 0px 2rem;
+    font-size: .5rem;
+    text-align: center;
+}
+
+.container > .row > .col-3 img {
+    border-radius: 1000px;
+    height: 200px;
+}
+
+.row > .col-6 > .card > .card-body > #middleList > .iconPad > img {
+    border-radius: 1000px;
+    height: 50px;
+}
+
+#following li {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 1px solid white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .contact{
+      list-style: none;
+      display: inline;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+  
+  .borderLeft {
+      border-left: 1px solid white;
+  }
